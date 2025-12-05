@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="app">
       <Scene
-        onNodeClick={(nodeId) => activateNode(nodeId as any)}
+        onNodeClick={(nodeId) => activateNode(nodeId as "node1" | "node2" | "node3")}
         onNode2Click={increaseNode2Clicks}
         onPortalClick={handlePortalClick}
         portalActive={state.portalActive}
