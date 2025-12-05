@@ -1,0 +1,28 @@
+/* Scene styles */
+a-scene {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global animations */
+@keyframes glow-flicker {
+  0%, 100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  25% {
+    opacity: 0.95;
+    filter: brightness(1.05);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  75% {
+    opacity: 0.98;
+    filter: brightness(1.02);
+  }
+}
