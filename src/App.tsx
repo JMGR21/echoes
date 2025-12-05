@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useGameState } from "./hooks/useGameState";
 import Scene from "./components/Scene";
 import UIPanel from "./components/UIPanel";

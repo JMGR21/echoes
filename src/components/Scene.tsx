@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import "../styles/Scene.css";
 
 interface SceneProps {
